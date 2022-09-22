@@ -1,0 +1,6 @@
+[template]
+cargo_generate_version = ">=0.16.0"
+
+[hooks]
+pre = ["install-cargo-compete.rhai"]
+post = ["cargo-compete-init.rhai"]

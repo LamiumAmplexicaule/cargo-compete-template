@@ -1,0 +1,1 @@
+system::command("cargo", ["install", "cargo-compete"]);
